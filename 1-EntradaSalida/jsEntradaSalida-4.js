@@ -4,6 +4,12 @@
 */
 function Mostar()
 {
+	var dato;
+
+	prompt ("Aprendiendo a programar");
+	
+	dato= document.getElementById("prompt").value;
+
 	
 }
 
