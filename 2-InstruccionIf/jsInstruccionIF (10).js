@@ -4,26 +4,25 @@ function Mostrar()
 	
 	var numero;
 
-	nota= Math.random()*(numero);
-	nota= parseInt(nota);
+	numero= Math.random()*(11-1)+1
 
-	if(nota>=9)
+	numero= parseInt(numero);
+
+	if(numero>=9)
 	{
-		alert("Excelente")
+		alert ("Excelente");
 	}
-	else
+	else if(numero>4)
 	{
-		if (nota>=6)
-		{
-			alert("Apronó");		
-		}
-		else
-		{
-			if(nota>=5)
-		}
-
+		alert ("Aprobó!");
+	}
+	else if(numero<4)
+	{
+		alert ("Vamos, la proxima se puede");
+	}
+	
+	
 		
 
-		
-	}
+	
 }//FIN DE LA FUNCIÓN
