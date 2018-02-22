@@ -7,6 +7,26 @@ function Mostrar()
 	
 	var respuesta='si';
 
+	while(respuesta=="si")
+	{
+		numero=prompt("ingrese numeros");
+		numero=parseInt(numero);
+		while(isNaN(numero))
+		{
+			numero=prompt("Ingrese numeros");
+			numero=parseInt(numero);
+		}
+			if(numero>0)
+			{
+				positivo= positivo-negativo
+			}
+			else if(numero!=0)
+			{
+				negativo= negativo*positivo
+			}
+
+	}
+
 
 document.getElementById('suma').value=positivo;
 document.getElementById('producto').value=negativo;
